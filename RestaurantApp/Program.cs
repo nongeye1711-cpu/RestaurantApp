@@ -28,7 +28,8 @@ foreach (var item in restaurants)
             var avg = restaurants.Average(x => x.Rating);
             Console.WriteLine($"Total is {amount}");
             Console.WriteLine($"Average is {avg}");
-        }
+            Console.WriteLine("==================================================");
+           }
     }
     public class Restaurant
     {
